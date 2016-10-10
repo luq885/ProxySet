@@ -1,0 +1,25 @@
+.main{
+    padding: 15px 15px 15px 15px;
+    height: 162px;
+}
+
+.btnSet {
+    background: url(../images/states.png) no-repeat scroll transparent;
+    cursor: pointer;
+    height: 100px;
+    width: 100px;
+    background-size: 200px;
+    border: none;
+}
+
+.btnSet.disabled{
+    background-position-x: -105px;
+}
+
+#parent {
+    display: flex;
+}
+
+#item {
+    margin: auto;
+}
